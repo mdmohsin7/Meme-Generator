@@ -28,11 +28,11 @@ function myFunction(imgs) {
 function changetext() {
   var upperText = document.getElementById("topText");
   var bottomText = document.getElementById("bottomText");
-  var textValue = document.getElementById("uppertext").value;
-  var textValue2 = document.getElementById("bottomtext2").value;
+  var upperTextValue = document.getElementById("uppertext").value;
+  var bottomTextValue = document.getElementById("bottomtext2").value;
   
-  upperText.innerText = textValue;
-  bottomText.innerText = textValue2;
+  upperText.innerText = upperTextValue;
+  bottomText.innerText = bottomTextValue;
 }
 function changefont() {
   var upperText = document.getElementById("topText");
